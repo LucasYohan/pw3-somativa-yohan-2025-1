@@ -1,2 +1,4 @@
-# pw3-somativa-yohan-2025-1
-Repositório de estudos de Programação Web III - ETEC de Embu - 2025
+# ETEC PWIII
+
+Seja bem-vindo ao meu repositório de estudos em Programação Web III na ETEC de Embu.
+Nesse repositório você irá encontrar estudos focados na realização de sites, mais espeficicamente, com React.
