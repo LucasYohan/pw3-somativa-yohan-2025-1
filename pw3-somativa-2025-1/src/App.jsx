@@ -1,20 +1,18 @@
 import "./App.css";
 import { useState } from "react";
-import BookCard from "./components/BookCard";
+import BookCard from "./components/BookCard/BookCard";
 import GuerraCivil from "./assets/imgGuerraCivil.jpg";
 import DiarioDeUmBanana from "./assets/imgDiarioDeUmBanana.jpg";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [livro, setLivro] = useState(0);
 
-  function handleChange(e) {
-    setLivro(e.target.value);
-  }
-
   return (
     <>
+    <Header/>
       <div>
-        <h1>PW3 - WEBAPP - LIVRARIA</h1>
         {livro ? (
           <BookCard
             titulo="Um diario de um banana"
@@ -32,9 +30,10 @@ function App() {
         <button type="button" onClick={() => setLivro(!livro)}>
           Teste
         </button>
+        <Footer/>
       </div>
     </>
   );
 }
 
-export default App; 
+export default App;
